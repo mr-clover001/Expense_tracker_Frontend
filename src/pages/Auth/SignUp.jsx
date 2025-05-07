@@ -6,7 +6,7 @@ import ProfilePhotoSelector from "../../components/Inputs/ProfilePhotoSelector";
 import { validateEmail } from "../../utlis/helper";
 import { API_PATHS } from "../../utlis/apiPath";
 import axiosInstance from "../../utlis/axiosinstance";
-import uploadImage from "../../utlis/UploadImage";
+import uploadImage from "./../../utlis/uploadImage";
 import { UserContext } from "../../context/UserContext";
 const SignUp = () => {
   const [profilePic, setProfilePic] = React.useState(null);
