@@ -1,4 +1,6 @@
-export const Base_URL = "http://localhost:8080";
+// export const Base_URL = "http://localhost:8080";
+export const Base_URL =
+  "https://expense-tracker-backendd-072274ff5e5e.herokuapp.com/";
 
 //utlis/apiPaths.js
 
